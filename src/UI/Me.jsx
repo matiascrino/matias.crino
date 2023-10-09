@@ -1,0 +1,64 @@
+import socialmedia from '../assets/socialmedia.json'
+
+
+const Me = () => {
+    return (
+			<div
+				class="flex flex-col justify-center items-center space-between lg:sticky md:sticky lg:top-0 md:top-0"
+				style={{ height: "calc(100vh - 80px)" }}>
+				<div class="w-56 h-56 rounded-full overflow-hidden">
+					<img
+						src="../../public/profilePic.jpeg"
+						alt=""
+						class="w-full h-full object-cover object-center"
+					/>
+				</div>
+				<div class="w-96 flex-grow text-center mt-2">
+					<h1 class="text-orange-800 text-2xl">Matias Crino</h1>
+					<h2 class="text-orange-900/80">Full Stack Web Developer</h2>
+					<div class="mt-10">
+						<p class="text-[#979795]">
+							26. Argentino.
+							<br />
+							En busqueda constante de nuevos desafios.
+							<br />
+							Me gusta trabajar con personas y ser parte de equipos
+							transformadores.
+							<br />
+							En mi tiempo libre, disfruto de la naturaleza, el surf y la buena
+							comida.
+						</p>
+					</div>
+				</div>
+				<div class="mt-10 max-[700px]:mt-4 justify-self-end mb-10 flex flex-col items-center">
+					<h2 class="text-center">
+						<span class="'hover:underline font-medium ml-1 transition-colors dark:text-orange-50 text-orange-700 dark:hover:text-cyan-500 hover:text-cyan-700'">
+							matiascrino@gmail.com
+						</span>
+					</h2>
+					<div class="flex max-[700px]:flex-col items-center max-[700px]:items-start">
+						<div class="flex items-center gap-3">
+							{socialmedia.map((socialmedia) => (
+								<a
+									key={socialmedia.id}
+									title={socialmedia.title}
+									target="_blank"
+									class="dark:text-neutral-300 text-neutral-600 hover:dark:text-neutral-100 hover:text-neutral-800"
+									href={socialmedia.url}>
+									<div class="w-8">
+										<svg viewBox="0 0 24 24" fill="none">
+											<g id="SVGRepo_iconCarrier">
+												<path d={socialmedia.path} fill="currentColor"></path>
+											</g>
+										</svg>
+									</div>
+								</a>
+							))}
+						</div>
+					</div>
+				</div>
+			</div>
+		);
+}
+
+export default Me;
