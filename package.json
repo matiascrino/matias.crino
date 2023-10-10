@@ -6,11 +6,10 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build",
+		"build": "vite build && npm run tailwind",
 		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"tailwind": "npx tailwindcss -i ./src/index.css -o ./dist/css/output.css --watch",
-		"predeploy": "npm run build",
+		"tailwind": "npx tailwindcss -i ./src/index.css -o ./tmp/output.css --watch && cp ./tmp/output.css ./dist/output.css",
 		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
