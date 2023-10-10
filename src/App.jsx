@@ -2,7 +2,6 @@ import "../dist/output.css";
 import AboutMeSection from "./components/MainSection";
 import HeroSection from "./components/HeroSection";
 import LandingHeader from "./components/LandingHeader";
-import CursorShadow from "./components/CursorShadow";
 
 function App() {
 	return (
