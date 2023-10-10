@@ -1,6 +1,5 @@
 import socialmedia from '../assets/socialmedia.json'
 import projects from '../assets/projects.json'
-<<<<<<< HEAD
 import { useContext } from 'react';
 import { LanguageContext } from '../context/LanguageContext';
 
@@ -19,15 +18,6 @@ const Projects = () => {
 						Projects
 					</h1>
 				)}
-=======
-
-const Projects = () => {
-    return (
-			<div class="h-full p-2 lg:p-10">
-				<h1 class=" text-orange-800 text-2xl font-bold text-center lg:text-left">
-					Proyectos
-				</h1>
->>>>>>> 7ab21830598dfe0e31aa569c56a318a3b35ab345
 				{projects.map((project) => (
 					<article
 						class="flex items-center rounded-lg hover:bg-black hover:bg-opacity-5 hover:shadow-2xl p-5"
@@ -41,7 +31,6 @@ const Projects = () => {
 							<h1 class="text-2xl font-semibold mb-2  text-orange-800">
 								{project.title}
 							</h1>
-<<<<<<< HEAD
 							{language === "es" ? (
 								<p class="text-sm mb-4 text-[#696965]">
 									{project.spanishDescription}
@@ -51,12 +40,6 @@ const Projects = () => {
 									{project.englishDescription}
 								</p>
 							)}
-=======
-
-							<p class="text-sm mb-4 text-[#696965]">
-								{project.spanishDescription}
-							</p>
->>>>>>> 7ab21830598dfe0e31aa569c56a318a3b35ab345
 							<div class="flex space-x-4">
 								<a
 									key={socialmedia[0].id}
@@ -77,11 +60,7 @@ const Projects = () => {
 								</a>
 								{project.deploy !== "" && (
 									<a
-<<<<<<< HEAD
 										key={socialmedia[1].id}
-=======
-										key={socialmedia[0].id}
->>>>>>> 7ab21830598dfe0e31aa569c56a318a3b35ab345
 										title="Heroku"
 										target="_blank"
 										class="flex items-center space-x-2 hover:bg-black hover:bg-opacity-5 hover:shadow-2xl rounded-lg hover:p-1"

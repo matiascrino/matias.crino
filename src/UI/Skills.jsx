@@ -1,5 +1,4 @@
 import icons from '../assets/icons'
-<<<<<<< HEAD
 import { useContext } from 'react';
 import { LanguageContext } from '../context/LanguageContext';
 
@@ -19,15 +18,6 @@ const Skills = () => {
 							Skills
 						</h1>
 					)}
-=======
-
-const Skills = () => {
-
-    return (
-			<>
-				<div class="h-full p-2 lg:p-10">
-					<h1 class=" text-orange-800 text-2xl font-bold mb-5 text-center lg:text-left">Habilidades</h1>
->>>>>>> 7ab21830598dfe0e31aa569c56a318a3b35ab345
 					<div class="grid grid-cols-4 w-full gap-10 justify-items-center p-5 lg:px-20 lg:pt-10">
 						{icons.map((icon) => (
 							<figure
