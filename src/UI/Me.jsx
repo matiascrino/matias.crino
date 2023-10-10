@@ -1,4 +1,4 @@
-import socialmedia from '../assets/socialmedia.json'
+import socialmedia from '../data/socialmedia.json'
 import { useContext } from 'react';
 import { LanguageContext } from '../context/LanguageContext';
 

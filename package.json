@@ -9,7 +9,7 @@
 		"build": "vite build && npm run tailwind",
 		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"tailwind": "npx tailwindcss -i ./src/index.css -o ./tmp/output.css && cp ./tmp/output.css ./dist/output.css",
+		"tailwind": "npx tailwindcss -i ./src/index.css -o ./src/css/output.css && cp ./src/css/output.css ./dist/css/output.css",
 		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {

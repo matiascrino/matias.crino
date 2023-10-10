@@ -1,5 +1,5 @@
-import socialmedia from '../assets/socialmedia.json'
-import projects from '../assets/projects.json'
+import socialmedia from '../data/socialmedia.json'
+import projects from "../data/projects.json";
 import { useContext } from 'react';
 import { LanguageContext } from '../context/LanguageContext';
 

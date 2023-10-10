@@ -1,4 +1,4 @@
-import icons from '../assets/icons'
+import icons from '../data/icons'
 import { useContext } from 'react';
 import { LanguageContext } from '../context/LanguageContext';
 
