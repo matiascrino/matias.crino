@@ -1,4 +1,4 @@
-import "../dist/output.css";
+import "./output.css";
 import AboutMeSection from "./components/MainSection";
 import HeroSection from "./components/HeroSection";
 import LandingHeader from "./components/LandingHeader";
