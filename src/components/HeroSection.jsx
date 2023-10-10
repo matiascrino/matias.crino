@@ -41,7 +41,7 @@ const HeroSection = () => {
 								decoding="async"
 								data-nimg="1"
 								class="rotate-180 w-10 h-10"
-								src="/pointing-up.webp"></img>
+								src="pointing-up.webp"></img>
 						</a>
 					</footer>
 				</div>
