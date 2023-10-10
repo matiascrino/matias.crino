@@ -12,7 +12,7 @@ const Me = () => {
 			<div
 				class="flex flex-col justify-center items-center space-between lg:sticky md:sticky lg:top-0 md:top-0"
 				style={{ height: "calc(100vh - 80px)" }}>
-				<div class="w-56 h-56 rounded-full overflow-hidden">
+				<div class="h-56 w-56 md:h-56 md:w-56 lg:h-72 lg:w-72 rounded-full overflow-hidden">
 					<img
 						src="profilePic.jpeg"
 						alt=""
