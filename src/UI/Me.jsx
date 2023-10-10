@@ -14,7 +14,7 @@ const Me = () => {
 				style={{ height: "calc(100vh - 80px)" }}>
 				<div class="w-56 h-56 rounded-full overflow-hidden">
 					<img
-						src="../../public/profilePic.jpeg"
+						src="/profilePic.jpeg"
 						alt=""
 						class="w-full h-full object-cover object-center"
 					/>
@@ -62,7 +62,7 @@ const Me = () => {
 									key={socialmedia.id}
 									title={socialmedia.title}
 									target="_blank"
-									class="dark:text-neutral-300 text-neutral-600 hover:dark:text-neutral-100 hover:text-neutral-800"
+									class="dark:text-neutral-500 text-neutral-600 hover:dark:text-neutral-700 hover:text-neutral-800"
 									href={socialmedia.url}>
 									<div class="w-8">
 										<svg viewBox="0 0 24 24" fill="none">

@@ -27,13 +27,13 @@ const AboutMe = () => {
 						<p class="pb-4 text-[#696965]">
 							En la actualidad, estoy a punto de finalizar mi formación como
 							Certified Tech Developer en
-							<span class="'hover:underline font-medium ml-1 transition-colors dark:text-orange-50 text-orange-700 dark:hover:text-cyan-500 hover:text-cyan-700'">
+							<span class=" text-orange-700">
 								Digital House.
-							</span>{" "}
+							</span>
 							Impulsado por mi profundo interés en las últimas tendencias
 							tecnológicas, decidí dedicarme por completo al desarrollo de
 							software como profesional independiente, dando origen a
-							<span class="'hover:underline font-medium ml-1 transition-colors dark:text-orange-50 text-orange-700 dark:hover:text-cyan-500 hover:text-cyan-700'">
+							<span class=" text-orange-700">
 								OsoñoDevs.
 							</span>
 						</p>
@@ -71,13 +71,13 @@ const AboutMe = () => {
 						<p class="pb-4 text-[#696965]">
 							Currently, I am about to complete my training as a Certified Tech
 							Developer at{" "}
-							<span class="'hover:underline font-medium ml-1 transition-colors dark:text-orange-50 text-orange-700 dark:hover:text-cyan-500 hover:text-cyan-700'">
+							<span class=" text-orange-700">
 								Digital House.
 							</span>{" "}
 							Driven by my deep interest in the latest technological trends, I
 							decided to dedicate myself entirely to software development as an
 							independent professional, founding{" "}
-							<span class="'hover:underline font-medium ml-1 transition-colors dark:text-orange-50 text-orange-700 dark:hover:text-cyan-500 hover:text-cyan-700'">
+							<span class=" text-orange-700">
 								OsoñoDevs.
 							</span>
 						</p>
