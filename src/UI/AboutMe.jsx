@@ -8,7 +8,7 @@ const AboutMe = () => {
     return (
 			<>
 				{language === "es" ? (
-					<div class="h-full p-2 lg:p-10">
+					<div class="h-full p-5 lg:p-10">
 						<h1 class="mb-8 text-orange-800 text-2xl font-bold text-center lg:text-left">
 							Mi Historia
 						</h1>
@@ -48,7 +48,7 @@ const AboutMe = () => {
 						</p>
 					</div>
 				) : (
-					<div class="h-full p-2 lg:p-10">
+					<div class="h-full p-5 lg:p-10">
 						<h1 class="mb-8 text-orange-800 text-2xl font-bold text-center lg:text-left">
 							My Story
 						</h1>

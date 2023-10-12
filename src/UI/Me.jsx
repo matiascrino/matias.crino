@@ -12,11 +12,11 @@ const Me = () => {
 			<div
 				class="flex flex-col justify-center items-center space-between lg:sticky md:sticky lg:top-0 md:top-0"
 				style={{ height: "calc(100vh - 80px)" }}>
-				<div class="h-56 w-56 md:h-56 md:w-56 lg:h-72 lg:w-72 rounded-full overflow-hidden">
+				<div class="w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden">
 					<img
 						src="profilePic.jpeg"
 						alt=""
-						class="w-full h-full object-cover object-center"
+						class="w-full h-full object-cover object-center rounded-full"
 					/>
 				</div>
 				<div class="w-96 flex-grow text-center mt-2">
