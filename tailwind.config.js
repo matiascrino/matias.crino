@@ -20,7 +20,9 @@ export default {
 				"background-color": "#f6f6f6",
 			},
 			fontFamily: {
-				"acumin": ["acumin-pro", "sans-serif"],
+				acumin: ["acumin-pro", "sans-serif"],
+				mono: ["Roboto Mono", "Montserrat"],
+				spartan: ["League Spartan"]
 			},
 		},
 	},

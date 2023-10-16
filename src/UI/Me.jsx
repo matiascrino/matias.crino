@@ -14,7 +14,7 @@ const Me = () => {
 				style={{ height: "calc(100vh - 80px)" }}>
 				<div class="w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden">
 					<img
-						src="profilePic.jpeg"
+						src="profilePic.png"
 						alt=""
 						class="w-full h-full object-cover object-center rounded-full"
 					/>
