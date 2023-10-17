@@ -1,16 +1,16 @@
 [
     {
-        "id": 1,
-        "title": "CalendarApp Frontend",
-        "englishDescription": "A calendar app that allows users to create events and view them on a calendar. Developed with React, Redux, Node, Express and MongoDB. Deployed with Heroku. ",
-        "spanishDescription": "Una aplicación de calendario que permite a los usuarios crear eventos y verlos en un calendario. Desallorada con React, Redux, Node, Express y MongoDB. Desplegada con Heroku.",
-        "image": "Calendar.png",
-        "github": "https://github.com/matiascrino/calendar-frontend",
-        "deploy": "https://mern-app-calendar-7b6c88e4145d.herokuapp.com/auth/login"
+			"id": 1,
+			"title": "Calendar App Frontend",
+			"englishDescription": "A calendar app that allows users to create events and view them on a calendar. Developed with React, Redux, Node, Express and MongoDB. Deployed with Heroku. ",
+			"spanishDescription": "Una aplicación de calendario que permite a los usuarios crear eventos y verlos en un calendario. Desallorada con React, Redux, Node, Express y MongoDB. Desplegada con Heroku.",
+			"image": "Calendar.png",
+			"github": "https://github.com/matiascrino/calendar-frontend",
+			"deploy": "https://mern-app-calendar-7b6c88e4145d.herokuapp.com/auth/login"
     },
     {
 			"id": 2,
-			"title": "CalendarApp Backend",
+			"title": "Calendar App Backend",
 			"englishDescription": "A calendar app that allows users to create events and view them on a calendar. Developed with React, Redux, Node, Express and MongoDB. Deployed with Heroku.",
 			"spanishDescription": "Una aplicación de calendario que permite a los usuarios crear eventos y verlos en un calendario. Desallorada con React, Redux, Node, Express y MongoDB. Desplegada con Heroku.",
 			"image": "Calendar2.png",
@@ -19,7 +19,7 @@
     },
     {
 			"id": 3,
-			"title": "JournalApp",
+			"title": "Journal App",
 			"englishDescription": "A journal app that allows users to create, edit and delete notes attaching files. Developed with React, Redux, Firebase for authentication, Cloudinary for database.",
 			"spanishDescription": "Una aplicación de diario que permite a los usuarios crear, editar y eliminar notas adjuntando archivos. Desallorada con React, Redux, Firebase, Cloudinary y Bootstrap.",
 			"image": "JournalApp.png",
@@ -28,7 +28,7 @@
     },
     {
 			"id": 4,
-			"title": "MediCare Managment App Frontend",
+			"title": "MediCare App Frontend",
 			"englishDescription": "A dentist app developed with React using hooks, forms, props, testing, APIs and react router",
 			"spanishDescription": "Una aplicación de dentistas desarrollada con React utilizando hooks, formularios, props, testing, APIs y react router.",
 			"image": "Clinica.png",

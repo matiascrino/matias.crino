@@ -28,7 +28,7 @@ const Projects = () => {
 							class="w-1/4 h-auto mr-20 hidden lg:block rounded-lg"
 						/>
 						<div class="text-left flex flex-col">
-							<h1 class="text-2xl font-semibold mb-2  text-orange-800">
+							<h1 class="text-xl font-semibold mb-2  text-orange-800">
 								{project.title}
 							</h1>
 							{language === "es" ? (
