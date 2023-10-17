@@ -6,11 +6,6 @@ import { LanguageContext } from '../context/LanguageContext.jsx';
 
 const customStyles = {
 	content: {
-        top: "5%",
-        left: "5%",
-        right: "5%",
-        bottom: "5%",
-        transform: "translate(0, 0)",
         width: "90%",
         height: "90vh",
 	},
