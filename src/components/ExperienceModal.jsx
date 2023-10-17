@@ -69,15 +69,15 @@ export const ExperienceModal = () => {
 						</h2>
 						<p class="text-[#979795] my-2">{experience.period}</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Descripción del puesto: </span>
+							<span class="font-semibold">Job Description: </span>
 							{experience.englishDescription}
 						</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Logros Destacados: </span>
+							<span class="font-semibold">Outstanding achievements: </span>
 							{experience.englishAchievement}
 						</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Aptitudes adquiridas: </span>
+							<span class="font-semibold">Acquired skills: </span>
 							{experience.englishSkills}
 						</p>
 					</>
