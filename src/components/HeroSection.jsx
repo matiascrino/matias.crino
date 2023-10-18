@@ -13,7 +13,7 @@ const HeroSection = () => {
 					<header class="w-2/3 mx-auto relative flex items-center justify-center h-screen">
 						<div class="flex items-center flex-col justify-center w-full">
 							<div class="flex flex-col -z-10 max-[700px]:px-2">
-								<h1 class="font-bold relative max-[700px]:text-8xl tracking-tighter text-emerald-900 text-9xl font-spartan">
+								<h1 class="font-bold relative max-[700px]:text-8xl tracking-tighter text-emerald-950 text-9xl font-spartan">
 									osoñodevs
 								</h1>
 								{language === "en" ? (

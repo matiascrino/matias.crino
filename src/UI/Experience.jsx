@@ -14,11 +14,11 @@ const Experience = () => {
 	return (
 		<div class="h-full p-2 lg:p-10">
 			{language === "es" ? (
-				<h1 class=" text-emerald-900 text-2xl font-bold text-center lg:text-left">
+				<h1 class=" text-cyan-950 text-2xl font-bold text-center lg:text-left">
 					Experiencia
 				</h1>
 			) : (
-				<h1 class=" text-emerald-900 text-2xl font-bold text-center lg:text-left">
+				<h1 class=" text-cyan-950 text-2xl font-bold text-center lg:text-left">
 					Experience
 				</h1>
 			)}
@@ -29,13 +29,13 @@ const Experience = () => {
 					<img
 						src={experience.image}
 						alt=""
-						class="w-1/4 h-auto mr-20 hidden lg:block rounded-full object-cover"
+						class="w-1/5 h-auto mr-20 hidden lg:block rounded-full object-cover"
 					/>
 					<div class="text-left flex flex-col">
-						<h1 class="text-xl font-semibold text-emerald-800 mb-2">
+						<h1 class="text-xl font-semibold text-cyan-800 mb-2">
 							{experience.title}
 						</h1>
-						<h2 class="text-lg font-medium text-emerald-900">
+						<h2 class="text-lg font-medium text-cyan-800/80">
 							{experience.company}
 						</h2>
 						{language === "es" ? (
@@ -51,11 +51,11 @@ const Experience = () => {
 								class="flex items-center hover:bg-black hover:bg-opacity-5 hover:shadow-2xl rounded-lg hover:p-1">
 								{language === "es" ? (
 									<button onClick={() => onClick(experience.id)}>
-										<p class="text-sm text-emerald-800">Ver más</p>
+										<p class="text-sm text-cyan-800">Ver más</p>
 									</button>
 								) : (
 									<button onClick={() => onClick(experience.id)}>
-										<p class="text-sm text-emerald-800">See more</p>
+										<p class="text-sm text-cyan-800">See more</p>
 									</button>
 								)}
 							</a>

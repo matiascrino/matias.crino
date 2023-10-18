@@ -9,7 +9,7 @@ const AboutMe = () => {
 			<>
 				{language === "es" ? (
 					<div class="h-full p-5 lg:p-10">
-						<h1 class="mb-8 text-emerald-900 text-2xl font-bold text-center lg:text-left">
+						<h1 class="mb-8 text-cyan-950 text-2xl font-bold text-center lg:text-left font-acumin">
 							Mi Historia
 						</h1>
 						<p class="pb-4 text-[#696965]">
@@ -27,10 +27,10 @@ const AboutMe = () => {
 						<p class="pb-4 text-[#696965]">
 							En la actualidad, estoy a punto de finalizar mi formación como
 							Certified Tech Developer en{" "}
-							<span class=" text-emerald-900">Digital House.</span> Impulsado por
-							mi profundo interés en las últimas tendencias tecnológicas, decidí
-							dedicarme por completo al desarrollo de software como profesional
-							independiente, dando origen a{" "}
+							<span class=" text-emerald-900">Digital House.</span> Impulsado
+							por mi profundo interés en las últimas tendencias tecnológicas,
+							decidí dedicarme por completo al desarrollo de software como
+							profesional independiente, dando origen a{" "}
 							<span class=" text-emerald-900">OsoñoDevs.</span>{" "}
 						</p>
 						<p class="pb-4 text-[#696965]">
@@ -49,7 +49,7 @@ const AboutMe = () => {
 					</div>
 				) : (
 					<div class="h-full p-5 lg:p-10">
-						<h1 class="mb-8 text-emerald-900 text-2xl font-bold text-center lg:text-left">
+						<h1 class="mb-8 text-cyan-950 text-2xl font-bold text-center lg:text-left">
 							My Story
 						</h1>
 						<p class="pb-4 text-[#696965]">

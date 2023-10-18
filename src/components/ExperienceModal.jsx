@@ -39,45 +39,57 @@ export const ExperienceModal = () => {
 				className="modal bg-white rounded-md shadow-lg mx-auto p-6 w-11/12 md:w-4/5 lg:w-3/4 max-h-3/4 relative overflow-auto">
 				{language === "es" ? (
 					<>
-						<h1 class="text-2xl font-semibold text-emerald-800 mb-2">
+						<h1 class="text-2xl font-semibold text-cyan-900 mb-2">
 							{experience.company}
 						</h1>
-						<h2 class="text-xl font-medium text-emerald-900">
+						<h2 class="text-xl font-medium text-cyan-800/80">
 							{experience.title}
 						</h2>
 						<p class="text-[#979795] my-2">{experience.spanishPeriod}</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Descripción del puesto: </span>
+							<span class="font-semibold text-cyan-800/80">
+								Descripción del puesto:{" "}
+							</span>
 							{experience.spanishDescription}
 						</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Logros Destacados: </span>
+							<span class="font-semibold text-cyan-800/80">
+								Logros Destacados:{" "}
+							</span>
 							{experience.spanishAchievement}
 						</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Aptitudes adquiridas: </span>
+							<span class="font-semibold text-cyan-800/80">
+								Aptitudes adquiridas:{" "}
+							</span>
 							{experience.spanishSkills}
 						</p>
 					</>
 				) : (
 					<>
-						<h1 class="text-2xl font-semibold text-emerald-800 mb-2">
+						<h1 class="text-2xl font-semibold text-cyan-900 mb-2">
 							{experience.company}
 						</h1>
-						<h2 class="text-xl font-medium text-emerald-900">
+						<h2 class="text-xl font-medium text-cyan-800/80">
 							{experience.title}
 						</h2>
 						<p class="text-[#979795] my-2">{experience.period}</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Job Description: </span>
+							<span class="font-semibold text-cyan-800/80">
+								Job Description:{" "}
+							</span>
 							{experience.englishDescription}
 						</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Outstanding achievements: </span>
+							<span class="font-semibold text-cyan-800/80">
+								Outstanding achievements:{" "}
+							</span>
 							{experience.englishAchievement}
 						</p>
 						<p class="text-[#979795] my-4">
-							<span class="font-semibold">Acquired skills: </span>
+							<span class="font-semibold text-cyan-800/80">
+								Acquired skills:{" "}
+							</span>
 							{experience.englishSkills}
 						</p>
 					</>
