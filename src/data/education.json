@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "Certified Tech Developer",
+		"company": "Digital House SA -  En curso",
+        "spanishPeriod": "2022 - 2024",
+		"image": "dh.jpeg",
+        "link": "https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer"
+	},
+	{
+		"id": 2,
+		"title": "Ingenieria Industrial",
+		"company": "Universidad Tecnologica Nacional",
+		"spanishPeriod": "2015 - 2021",
+		"image": "utn.jpeg",
+        "link": "https://www.frba.utn.edu.ar/ingreso/ingenieria-industrial/"
+	},
+	{
+		"id": 3,
+		"title": "Bachiller Bilingue",
+		"company": "Oxford High School",
+		"spanishPeriod": "1998 - 2014",
+		"image": "ohs.jpeg",
+        "link": "https://oxford.vaneduc.edu.ar/"
+	}
+]

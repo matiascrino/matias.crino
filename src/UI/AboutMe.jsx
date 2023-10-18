@@ -9,7 +9,7 @@ const AboutMe = () => {
 			<>
 				{language === "es" ? (
 					<div class="h-full p-5 lg:p-10">
-						<h1 class="mb-8 text-orange-800 text-2xl font-bold text-center lg:text-left">
+						<h1 class="mb-8 text-emerald-900 text-2xl font-bold text-center lg:text-left">
 							Mi Historia
 						</h1>
 						<p class="pb-4 text-[#696965]">
@@ -27,11 +27,11 @@ const AboutMe = () => {
 						<p class="pb-4 text-[#696965]">
 							En la actualidad, estoy a punto de finalizar mi formación como
 							Certified Tech Developer en{" "}
-							<span class=" text-orange-700">Digital House.</span> Impulsado por
+							<span class=" text-emerald-900">Digital House.</span> Impulsado por
 							mi profundo interés en las últimas tendencias tecnológicas, decidí
 							dedicarme por completo al desarrollo de software como profesional
 							independiente, dando origen a{" "}
-							<span class=" text-orange-700">OsoñoDevs.</span>{" "}
+							<span class=" text-emerald-900">OsoñoDevs.</span>{" "}
 						</p>
 						<p class="pb-4 text-[#696965]">
 							Esta empresa refleja mi pasión por crecer en la industria del
@@ -49,7 +49,7 @@ const AboutMe = () => {
 					</div>
 				) : (
 					<div class="h-full p-5 lg:p-10">
-						<h1 class="mb-8 text-orange-800 text-2xl font-bold text-center lg:text-left">
+						<h1 class="mb-8 text-emerald-900 text-2xl font-bold text-center lg:text-left">
 							My Story
 						</h1>
 						<p class="pb-4 text-[#696965]">
@@ -66,11 +66,11 @@ const AboutMe = () => {
 						</p>
 						<p class="pb-4 text-[#696965]">
 							Currently, I am about to complete my training as a Certified Tech
-							Developer at <span class=" text-orange-700">Digital House.</span>{" "}
+							Developer at <span class=" text-emerald-900">Digital House.</span>{" "}
 							Driven by my deep interest in the latest technological trends, I
 							decided to dedicate myself entirely to software development as an
 							independent professional, founding{" "}
-							<span class=" text-orange-700">OsoñoDevs.</span>
+							<span class=" text-emerald-900">OsoñoDevs.</span>
 						</p>
 						<p class="pb-4 text-[#696965]">
 							This company reflects my passion for growing in the software

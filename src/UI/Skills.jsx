@@ -10,11 +10,11 @@ const Skills = () => {
 			<>
 				<div class="h-full p-2 lg:p-10">
 					{language === "es" ? (
-						<h1 class=" text-orange-800 text-2xl font-bold text-center lg:text-left">
+						<h1 class=" text-emerald-900 text-2xl font-bold text-center lg:text-left">
 							Habilidades
 						</h1>
 					) : (
-						<h1 class=" text-orange-800 text-2xl font-bold text-center lg:text-left">
+						<h1 class=" text-emerald-900 text-2xl font-bold text-center lg:text-left">
 							Skills
 						</h1>
 					)}
@@ -23,7 +23,7 @@ const Skills = () => {
 							<figure
 								key={icon.id}
 								title="HTML"
-								class="hover:opacity-50 hover:scale-125">
+								class="hover:opacity-50 hover:scale-125 text-emerald-900/80">
 								<div class="w-16 mx-3" key={icon.id}>
 									<svg
 										key={icon.id}

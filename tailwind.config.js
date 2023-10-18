@@ -2,6 +2,10 @@
 export default {
 	content: ["./src/**/*.{html,js,jsx}"],
 	theme: {
+		letterSpacing: {
+			tighter: '-.08em',
+			widest: '.2em',
+    	},
 		extend: {
 			animation: {
 				"bounce-vertical": "bounce-vertical 2s infinite",

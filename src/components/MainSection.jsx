@@ -4,6 +4,7 @@ import Projects from "../UI/Projects.jsx";
 import Skills from "../UI/Skills.jsx";
 import Experience from "../UI/Experience.jsx";
 import { ExperienceModal } from "./ExperienceModal.jsx";
+import Education from "../UI/Education.jsx";
 
 
 const AboutMeSection = () => {
@@ -15,6 +16,7 @@ const AboutMeSection = () => {
 					<AboutMe />
 					<Projects />
 					<Experience />
+					<Education />
 					<Skills />
 				</div>
 			</div>

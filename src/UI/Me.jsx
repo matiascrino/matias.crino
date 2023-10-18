@@ -12,7 +12,7 @@ const Me = () => {
 			<div
 				class="flex flex-col justify-center items-center space-between lg:sticky md:sticky lg:top-0 md:top-0"
 				style={{ height: "calc(100vh - 80px)" }}>
-				<div class="w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden">
+				<div class="w-36 h-36  md:w-36 md:h-36 lg:w-36 lg:h-36 rounded-full overflow-hidden">
 					<img
 						src="profilePic.png"
 						alt=""
@@ -20,8 +20,8 @@ const Me = () => {
 					/>
 				</div>
 				<div class="w-96 flex-grow text-center mt-2">
-					<h1 class="text-orange-800 text-2xl">Matias Crino</h1>
-					<h2 class="text-orange-900/80">Full Stack Web Developer</h2>
+					<h1 class="text-emerald-900 text-2xl">Matias Crino</h1>
+					<h2 class="text-emerald-900/80">Full Stack Web Developer</h2>
 					<div class="mt-10">
 						{language === "es" ? (
 							<p class="text-[#979795]">
@@ -51,7 +51,7 @@ const Me = () => {
 				</div>
 				<div class="mt-10 max-[700px]:mt-4 justify-self-end mb-10 flex flex-col items-center">
 					<h2 class="text-center">
-						<span class="'hover:underline font-medium ml-1 transition-colors dark:text-orange-50 text-orange-700 dark:hover:text-cyan-500 hover:text-cyan-700'">
+						<span class="'hover:underline font-medium ml-1 transition-colors text-emerald-900/80 dark:hover:text-cyan-500 hover:text-cyan-700'">
 							matiascrino@gmail.com
 						</span>
 					</h2>
@@ -62,7 +62,7 @@ const Me = () => {
 									key={socialmedia.id}
 									title={socialmedia.title}
 									target="_blank"
-									class="dark:text-neutral-500 text-neutral-600 hover:dark:text-neutral-700 hover:text-neutral-800"
+									class="dark:text-neutral-500 text-emerald-900/80 hover:dark:text-neutral-700 hover:text-neutral-800"
 									href={socialmedia.url}>
 									<div class="w-8">
 										<svg viewBox="0 0 24 24" fill="none">

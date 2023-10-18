@@ -39,10 +39,10 @@ export const ExperienceModal = () => {
 				className="modal bg-white rounded-md shadow-lg mx-auto p-6 w-11/12 md:w-4/5 lg:w-3/4 max-h-3/4 relative overflow-auto">
 				{language === "es" ? (
 					<>
-						<h1 class="text-2xl font-semibold text-orange-800 mb-2">
+						<h1 class="text-2xl font-semibold text-emerald-800 mb-2">
 							{experience.company}
 						</h1>
-						<h2 class="text-xl font-medium text-orange-900">
+						<h2 class="text-xl font-medium text-emerald-900">
 							{experience.title}
 						</h2>
 						<p class="text-[#979795] my-2">{experience.spanishPeriod}</p>
@@ -61,10 +61,10 @@ export const ExperienceModal = () => {
 					</>
 				) : (
 					<>
-						<h1 class="text-2xl font-semibold text-orange-800 mb-2">
+						<h1 class="text-2xl font-semibold text-emerald-800 mb-2">
 							{experience.company}
 						</h1>
-						<h2 class="text-xl font-medium text-orange-900">
+						<h2 class="text-xl font-medium text-emerald-900">
 							{experience.title}
 						</h2>
 						<p class="text-[#979795] my-2">{experience.period}</p>
