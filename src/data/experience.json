@@ -1,9 +1,23 @@
 [
 	{
-		"id": 1,
+		"id": 7,
+		"title": "Founder",
+		"company": "OsoñoDev",
+		"spanishPeriod": "Actualidad",
+		"period": "Current",
+		"spanishDescription": "Actualmente como profesional independiente proporciono soluciones de analisis de datos a empresar y particulares. Ademas, me encuentro desarrollando un software de gestion personalizado como proyecto personal. Mi objetivo es ayudar a las empresas a tomar decisiones basadas en datos, simplificar y optimizar sus procesos.",
+		"englishDescription": "Currently, as an independent professional, I provide data analysis solutions to businesses and individuals. Additionally, I am in the process of developing a customized management software as a personal project. My goal is to assist companies in making data-driven decisions, streamlining and optimizing their processes.",
+		"spanishAchievement": "Me encuentro en constante aprendizaje en esta nueva etapa. Desarrollando habilidades de comunicacion, pensamiento analitico, gestion del tiempo y resiliencia.",
+		"englishAchievement": "I am in constant learning in this new phase, developing skills in communication, analytical thinking, time management, and resilience.",
+		"spanishSkills": "Power BI, Bases de Datos, Java, Springboot, React, Vite, Redux, JavaScript, HTML, CSS, Git, Metodologías Ágiles.",
+		"englishSkills": "Power BI, Data Base, Java, Springboot, React, Vite, Redux, JavaScript, HTML, CSS, Git, Metodologías Ágiles.",
+		"image": "2.png"
+	},
+	{
+		"id": 6,
 		"title": "Business Controller",
 		"company": "TaTa S.A",
-        "spanishPeriod": "Agosto 2021 - Agosto 2023",
+		"spanishPeriod": "Agosto 2021 - Agosto 2023",
 		"period": "August 2021 - August 2023",
 		"spanishDescription": "Ocupé uno de los puestos más completos de mi carrera profesional como Business Controller en TATA S.A. Mi rol se centró en la gestión financiera y en proporcionar información crítica para la toma de decisiones empresariales. Entre mis principales responsabilidades se encontraban la planificación estratégica, la elaboración de presupuestos, la evaluación del rendimiento financiero, la implementación de sistemas de gestión del rendimiento para evaluar el desempeño, el control de costos, el apoyo en la toma de decisiones y la optimización de recursos.",
 		"englishDescription": "I held one of the most comprehensive roles in my professional career as a Business Controller at TATA S.A. My role focused on financial management and providing critical information for business decision-making. Among my main responsibilities were strategic planning, budgeting, financial performance evaluation, implementation of performance management systems, cost control, decision support, and resource optimization.",
@@ -14,7 +28,7 @@
 		"image": "tata.jpeg"
 	},
 	{
-		"id": 2,
+		"id": 5,
 		"title": "Trade Marketing Manager",
 		"company": "Danone Waters",
 		"spanishPeriod": "Enero 2021 - Agosto 2021",
@@ -28,7 +42,7 @@
 		"image": "danone.jpeg"
 	},
 	{
-		"id": 3,
+		"id": 4,
 		"title": "Tech Sales Analyst",
 		"company": "Danone Waters",
 		"spanishPeriod": "Enero 2020 - Enero 2021",
@@ -42,7 +56,7 @@
 		"image": "danone.jpeg"
 	},
 	{
-		"id": 4,
+		"id": 3,
 		"title": "Trade Marketing Trainee",
 		"company": "Danone Waters",
 		"spanishPeriod": "Enero 2019 - Enero 2020",
@@ -56,7 +70,7 @@
 		"image": "danone.jpeg"
 	},
 	{
-		"id": 5,
+		"id": 2,
 		"title": "Full Stack Web Developer",
 		"company": "Digital House SA",
 		"spanishPeriod": "Julio 2018 - Enero 2019",
@@ -70,7 +84,7 @@
 		"image": "dh.jpeg"
 	},
 	{
-		"id": 6,
+		"id": 1,
 		"title": "Credit Services Trainee",
 		"company": "HSBC Bank",
 		"spanishPeriod": "Enero 2017 - Julio 2018",
