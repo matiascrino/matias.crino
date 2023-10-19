@@ -25,7 +25,7 @@ const HeroSection = () => {
 										desarrollo de software
 									</h2>
 								)} */}
-								<img src="/osonodevs.png" alt="" />
+								<img src="osonodevs.png" alt="" />
 							</div>
 						</div>
 					</header>
