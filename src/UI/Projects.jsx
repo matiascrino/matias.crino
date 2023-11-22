@@ -61,11 +61,11 @@ const Projects = () => {
 								{project.deploy !== "" && (
 									<a
 										key={socialmedia[1].id}
-										title="Heroku"
+										title="Deployed"
 										target="_blank"
 										class="flex items-center space-x-2 hover:bg-black hover:bg-opacity-5 hover:shadow-2xl rounded-lg hover:p-1"
-										href="https://mern-app-calendar-7b6c88e4145d.herokuapp.com/">
-										<p class="text-cyan-900/80">Heroku</p>
+										href={project.deploy}>
+										<p class="text-cyan-900/80">Deployed</p>
 									</a>
 								)}
 							</div>

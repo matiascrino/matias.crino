@@ -1,20 +1,20 @@
 [
     {
-			"id": 1,
-			"title": "Calendar App Frontend",
+		"id": 1,
+		"title": "DevNotes",
+		"englishDescription": "An app to create and publish code snippets to share with the developer community and reuse them. Developed with React for the Front and Java Spring Boot for the Back. Deployed with AWS. ",
+		"spanishDescription": "Una aplicación para crear y publicar lineas de codigo para compartir con la comunidad de desarrolladores y reutilizarlas. Desarrollada con React para el Front y Java Spring Boot para el Back. Desplegada con AWS.",
+		"image": "DevNotes.png",
+		"github": "https://github.com/matiascrino/DevNotes_Backend",
+		"deploy": "http://devnotes-reactjava.s3-website-sa-east-1.amazonaws.com/"
+	},
+	{
+			"id": 2,
+			"title": "Calendar App",
 			"englishDescription": "A calendar app that allows users to create events and view them on a calendar. Developed with React, Redux, Node, Express and MongoDB. Deployed with Heroku. ",
 			"spanishDescription": "Una aplicación de calendario que permite a los usuarios crear eventos y verlos en un calendario. Desallorada con React, Redux, Node, Express y MongoDB. Desplegada con Heroku.",
 			"image": "Calendar.png",
 			"github": "https://github.com/matiascrino/calendar-frontend",
-			"deploy": "https://mern-app-calendar-7b6c88e4145d.herokuapp.com/auth/login"
-    },
-    {
-			"id": 2,
-			"title": "Calendar App Backend",
-			"englishDescription": "A calendar app that allows users to create events and view them on a calendar. Developed with React, Redux, Node, Express and MongoDB. Deployed with Heroku.",
-			"spanishDescription": "Una aplicación de calendario que permite a los usuarios crear eventos y verlos en un calendario. Desallorada con React, Redux, Node, Express y MongoDB. Desplegada con Heroku.",
-			"image": "Calendar2.png",
-			"github": "https://github.com/matiascrino/calendar-backend",
 			"deploy": "https://mern-app-calendar-7b6c88e4145d.herokuapp.com/auth/login"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
 			"id": 4,
-			"title": "MediCare App Frontend",
+			"title": "MediCare App - Frontend",
 			"englishDescription": "A dentist app developed with React using hooks, forms, props, testing, APIs and react router",
 			"spanishDescription": "Una aplicación de dentistas desarrollada con React utilizando hooks, formularios, props, testing, APIs y react router.",
 			"image": "Clinica.png",
@@ -37,7 +37,7 @@
 		},
     {
 			"id": 5,
-			"title": "MediCare App Backend",
+			"title": "MediCare App - Backend",
 			"englishDescription": "A dentist app that allows users to create, edit and delete dentists and patients. Developed with Java, Spring Boot, Spring Data JPA, MySQL, Hibernate.",
 			"spanishDescription": "Una aplicacion de dentistas que permite a los usuarios crear, editar y eliminar dentistas y pacientes. Desarrollada con Java, Spring Boot, Spring Data JPA, MySQL, Hibernate.",
 			"image": "Clinica2.png",
