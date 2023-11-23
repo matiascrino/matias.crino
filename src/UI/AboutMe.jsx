@@ -13,11 +13,11 @@ const AboutMe = () => {
 							Mi Historia
 						</h1>
 						<p class="pb-4 text-[#696965]">
-							Como Ingeniero Industrial, tuve la increíble oportunidad de
-							trabajar en diversas áreas de grandes empresas de consumo masivo.
-							Trabajé en marketing, ventas, data analytics y finanzas, lo que me
-							permitió comprender en profundidad el funcionamiento del negocio y
-							adquirir valiosas habilidades interdisciplinarias.
+							En los ultimos años, tuve la increíble oportunidad de trabajar en
+							diversas áreas de grandes empresas de consumo masivo. Trabajé en
+							marketing, ventas, data analytics y finanzas, lo que me permitió
+							comprender en profundidad el funcionamiento del negocio y adquirir
+							valiosas habilidades interdisciplinarias.
 						</p>
 						<p class="pb-4 text-[#696965]">
 							Hace 2 años, tomé la decisión de ampliar mi perfil profesional
@@ -53,11 +53,11 @@ const AboutMe = () => {
 							My Story
 						</h1>
 						<p class="pb-4 text-[#696965]">
-							As an Industrial Engineer, I had the incredible opportunity to
-							work in various areas of large consumer goods companies. I worked
-							in marketing, sales, data analytics, and finance, which allowed me
-							to deeply understand how the business operates and acquire
-							valuable interdisciplinary skills.
+							In recent years, I had the incredible opportunity to work in
+							various areas of large consumer goods companies. I worked in
+							marketing, sales, data analytics, and finance, which allowed me to
+							deeply understand how the business operates and acquire valuable
+							interdisciplinary skills.
 						</p>
 						<p class="pb-4 text-[#696965]">
 							Two years ago, I made the decision to expand my professional
