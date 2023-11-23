@@ -24,7 +24,7 @@
 			"spanishDescription": "Una aplicación de diario que permite a los usuarios crear, editar y eliminar notas adjuntando archivos. Desallorada con React, Redux, Firebase, Cloudinary y Bootstrap.",
 			"image": "JournalApp.png",
 			"github": "https://github.com/matiascrino/journal-app",
-			"deploy": ""
+			"deploy": "http://journalpp.s3-website-sa-east-1.amazonaws.com/auth/register"
     },
     {
 			"id": 4,
